@@ -7,11 +7,18 @@ h1{
   text-align: center;
   font-size: 55px;
   font-family: 'Monoton', cursive;
-  color: gray;
+  color: rgb(255, 255, 255);
+  text-decoration: underline overline;
 }
+img{
+  width: 20%;
+  height:20%;
+  position:relative;
+  left: 39%;
+  margin-bottom: 20px;
+ }
 
-
-.button{
+#ins{
 
   background-color: black;
   border-radius: 20px;
@@ -20,8 +27,31 @@ h1{
   font-size: 20px;
   text-align: centre;
   padding: 14px 40px;
+  margin-left: 43%;
+  display: block;
+  
 }
-.button:hover{
-  background-color: white;
+#ins:hover{
+  background-color: grey;
   color:black;
+}
+#start{
+  background-color: black;
+  border-radius: 20px;
+  margin: none;
+  color: white;
+  font-size: 20px;
+  text-align: centre;
+  padding: 14px 40px;
+  margin-left: 43%;
+  display: block;
+}
+#start:hover{
+  background-color: grey;
+  color:white;
+}
+p{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
 }
