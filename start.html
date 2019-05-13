@@ -12,23 +12,23 @@
   <div class="container">
     <h1>Start Game</h1>
     <h2>May the best player win &#128526</h2>
-    <div class="player">
+    <div class="player1">
      <p>Player 1</p>
      <img class="image1" src="./images/llama.jpeg" alt="">
      <div id="die1">0</div>
      <button class="roll" onclick="myFunction()">ROLL</button>
-     <button class="hold" onclick="myFunction()">HOLD</button>
-     <p>TOTAL:</p>
+     <button class="hold" onclick="hold()">HOLD</button>
+     <p >TOTAL:</p>
      <p>SCORE:</p>
     </div>
-    <div class="player">
+    <div class="player2">
       <p>Player 2</p>
       <img class="image2" src="./images/cuddles.jpeg" alt="">
       <div id="die2">0</div>
       <button class="roll" onclick="myFunction2()">ROLL</button>
-      <button class="hold" onclick="myFunction2()">HOLD</button>
-      <p>TOTAL:</p>
-      <p>SCORE:</p>
+      <button class="hold" onclick="hold2()">HOLD</button>
+      <p id="total">TOTAL:</p>
+      <p id="score">SCORE:</p>
     </div>
   </div>
 </body>

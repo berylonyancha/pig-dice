@@ -1,0 +1,12 @@
+body{
+  background: black;
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+.player{
+  display: inline-block;
+}
+img{
+  width: 80%
+}

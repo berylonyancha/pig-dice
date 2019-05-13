@@ -17,6 +17,9 @@ img{
   left: 39%;
   margin-bottom: 20px;
  }
+ .instructions{
+   display: none;
+ }
 
 #ins{
 
@@ -29,7 +32,6 @@ img{
   padding: 14px 40px;
   margin-left: 43%;
   display: block;
-  
 }
 #ins:hover{
   background-color: grey;
