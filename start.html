@@ -12,15 +12,18 @@
   <div class="container">
     <h1>Start Game</h1>
     <h2>May the best player win &#128526</h2>
-    <div class="player1">
-     <p>Player 1</p>
-     <img class="image1" src="./images/llama.jpeg" alt="">
-     <div id="die1">0</div>
-     <button class="roll" onclick="myFunction()">ROLL</button>
-     <button class="hold" onclick="hold()">HOLD</button>
-     <p >TOTAL:</p>
-     <p>SCORE:</p>
-    </div>
+    <section class="play-area">
+      <div class="card">
+        <p>Player 1</p>
+        <img class="image1 card" src="./images/llama.jpeg" alt="">
+        <div id="die1">0</div>
+        <button class="roll" onclick="myFunction()">ROLL</button>
+        <button class="hold" onclick="hold()">HOLD</button>
+        <p >TOTAL:</p>
+        <p>SCORE:</p>
+       </div>
+    
+    
     <div class="player2">
       <p>Player 2</p>
       <img class="image2" src="./images/cuddles.jpeg" alt="">
@@ -30,6 +33,9 @@
       <p id="total">TOTAL:</p>
       <p id="score">SCORE:</p>
     </div>
+
+    </section>
+      
   </div>
 </body>
 </html>
