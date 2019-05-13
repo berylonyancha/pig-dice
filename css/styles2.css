@@ -17,3 +17,15 @@ img{
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.roll , .hold{
+  border-radius: 20px;
+  border-radius: 20px;
+  margin: none;
+  background: rgb(189, 26, 121);
+  color: white;
+  font-size: 20px;
+  text-align: centre;
+  padding: 14px 40px;
+  display:inline-block;
+
+}
