@@ -2,7 +2,18 @@ body{
   background: black;
   color: white;
   text-align: center;
-  width: %;
+  width: ;
+}
+h1{
+  font-family: 'VT323', monospace;
+  font-size:40px;
+}
+h2{
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+}
+p{
+  font-family: 'Special Elite', cursive;
 }
 .player{
   display: inline-block;
